@@ -22,7 +22,6 @@ if (!$server->verifyResourceRequest($request, $response, $scopeRequired)) {
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
  
-use osCAPI\Config\Database as Database;
 use osCAPI\Objects\Product as Product;
  
 // instantiate database and product object

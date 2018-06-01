@@ -18,7 +18,6 @@ if (!$server->verifyResourceRequest($request, $response, $scopeRequired)) {
   die;
 }
 
-use osCAPI\Config\Database as Database;
 use osCAPI\Objects\Order as Order;
 
 // required headers
