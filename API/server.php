@@ -15,8 +15,6 @@ OAuth2\Autoloader::register();
 // Autoloading osCAPI
 require_once('osCAPI/Autoloader.php');
 osCAPI\Autoloader::register();
-
-use osCAPI\Config\Medoo as Medoo;
  
 // $dsn is the Data Source Name for your database, for exmaple "mysql:dbname=my_oauth2_db;host=localhost"
 $storage = new OAuth2\Storage\Pdo(array('dsn' => $dsn, 'username' => $username, 'password' => $password));
